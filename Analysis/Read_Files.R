@@ -40,9 +40,9 @@ library(RColorBrewer)
 
 #read shape files, and Census Division data
 
-CD  <- st_read("ShapeFiles/CD1986_SHAPE.shp")
-CSD <- st_read("ShapeFiles/CSD1986.shp")
-CMA <- st_read("ShapeFiles/CMACA1986.shp")
+#CD  <- st_read("ShapeFiles/CD1986_SHAPE.shp")
+#CSD <- st_read("ShapeFiles/CSD1986.shp")
+#CMA <- st_read("ShapeFiles/CMACA1986.shp")
 
 CD.data      <- read.csv(file="Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
 # include province acronym with Census Division name to avoid ambiguities
