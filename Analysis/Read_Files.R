@@ -41,9 +41,9 @@ library(RColorBrewer)
 #read shape files, and Census Division data
 
 #CD = source_url("https://github.com/milescorak/The-Canadian-Geography-of-Intergenerational-Income-Mobility/raw/master/ShapeFiles/CD1986_SHAPE.shp")
-#CD  <- st_read("ShapeFiles/CD1986_SHAPE.shp")
-#CSD <- st_read("ShapeFiles/CSD1986.shp")
-#CMA <- st_read("ShapeFiles/CMACA1986.shp")
+CD  <- st_read("ShapeFiles/CD1986_SHAPE.shp")
+CSD <- st_read("ShapeFiles/CSD1986.shp")
+CMA <- st_read("ShapeFiles/CMACA1986.shp")
 
 
 CD.data <- repmis::source_data("https://raw.githubusercontent.com/milescorak/The-Canadian-Geography-of-Intergenerational-Income-Mobility/master/Data/CD_mobility_All_cohorts_incomes_above_500.csv")
