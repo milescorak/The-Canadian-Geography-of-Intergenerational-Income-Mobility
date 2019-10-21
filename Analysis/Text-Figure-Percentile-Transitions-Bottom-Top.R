@@ -6,6 +6,7 @@
 # input the chosen percentile and choose the appropriate
 # row from the percentile transition matrix
 
+par(mar=c(1,1,1,1))
 par(mfrow=c(2,1),las=1)
 # graph child percentile outcomes for bottom percentile parents
 i <- 1
