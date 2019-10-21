@@ -13,8 +13,8 @@
 
 # read the data for the two cohorts subject to both have $500 of income
 
-CD.data <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
-CD.data.1986 <- read.csv(file="Analysis/Data/CD_mobility_1986_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
+#CD.data <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
+#CD.data.1986 <- read.csv(file="Analysis/Data/CD_mobility_1986_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
 oldpar <- par()
 
 a   <- CD.data$rank.intercept
