@@ -6,7 +6,7 @@
 # and produce a figure ranking each Census Division
 # according to coverage
 
-CD.data <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
+#CD.data <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
 
 # create and select needed variables
 
