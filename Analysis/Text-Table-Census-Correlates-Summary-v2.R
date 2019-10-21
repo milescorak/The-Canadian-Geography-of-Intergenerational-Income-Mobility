@@ -6,7 +6,7 @@
 library("boot", lib.loc="/Library/Frameworks/R.framework/Versions/3.2/Resources/library")
 
 
-CD.data      <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
+#CD.data      <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
 # include province acronym with Census Division name to avoid ambiguities
 # CD.data$census.division.province.name  <- paste(CD.data$census.division.name, CD.data$province.name)
 
