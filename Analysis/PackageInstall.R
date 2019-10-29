@@ -5,7 +5,7 @@ install.packages(c("brew", "countrycode",
                    "repmis", "RCurl",
                    "rmarkdown", "texreg",
                    "tidyr", "WDI",
-                   "xtable", "Zelig"))
+                   "xtable", "Zelig"), repos = "http://cran.us.r-project.org")
 
 packages = c("brew", "countrycode",
              "devtools", "dplyr",
