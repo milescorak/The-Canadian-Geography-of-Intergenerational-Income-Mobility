@@ -7,7 +7,8 @@
 # of Census Divisions and Census Sub Divisions
 
 # install libraries needed for mapping
-
+install.packages("rgdal", repos = "http://cran.us.r-project.org")
+library(rgdal)
 MapLibraries <- c("sp",
                   "maptools",
                   "gpclib",
