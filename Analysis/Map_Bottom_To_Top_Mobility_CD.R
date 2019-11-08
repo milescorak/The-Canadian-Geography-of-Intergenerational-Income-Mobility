@@ -1,7 +1,7 @@
 
 # map the quintile transition probability
 # of moving to the top given parent in the bottom
-install.packages("tmap")
+install.packages("tmap",repos = "http://cran.us.r-project.org")
 library(tmap)
 
 CD.data.map  <- merge(CD,CD.data)
