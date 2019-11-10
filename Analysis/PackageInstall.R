@@ -5,7 +5,7 @@ install.packages(c("brew", "countrycode",
                    "repmis", "RCurl",
                    "rmarkdown", "texreg",
                    "tidyr", "WDI",
-                   "xtable", "Zelig"), repos = "http://cran.us.r-project.org")
+                   "xtable", "Zelig","tmaptools"), repos = "http://cran.us.r-project.org")
 
 packages = c("brew", "countrycode",
              "devtools", "dplyr",
@@ -14,6 +14,6 @@ packages = c("brew", "countrycode",
              "repmis", "RCurl",
              "rmarkdown", "texreg",
              "tidyr", "WDI",
-             "xtable", "Zelig")
+             "xtable", "Zelig","tmaptools")
 libdown = lapply(packages, library, character.only = TRUE)
 
