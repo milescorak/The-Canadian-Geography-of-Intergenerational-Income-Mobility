@@ -1,5 +1,5 @@
-install.packages("scatr")
-install.packages("reshape2")
+install.packages("scatr",repos = "http://cran.us.r-project.org")
+install.packages("reshape2",repos = "http://cran.us.r-project.org")
 library(scatr)
 library(reshape2)
 
