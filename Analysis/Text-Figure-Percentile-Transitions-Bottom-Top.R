@@ -1,3 +1,9 @@
+install.packages("scatr")
+install.packages("reshape2")
+library(scatr)
+library(reshape2)
+
+
 # Create figure for the percentile ranks of children according
 # percentile rank of the parents
 
