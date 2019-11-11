@@ -1,8 +1,3 @@
-install.packages("scatr",repos = "http://cran.us.r-project.org")
-install.packages("reshape2",repos = "http://cran.us.r-project.org")
-library(scatr)
-library(reshape2)
-
 
 # Create figure for the percentile ranks of children according
 # percentile rank of the parents
