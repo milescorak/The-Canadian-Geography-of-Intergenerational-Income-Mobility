@@ -1,18 +1,17 @@
 install.packages(c("brew", "countrycode",
-                   "devtools", "dplyr",
-                   "ggplot2", "googleVis",
-                   "knitr", "MCMCpack",
-                   "repmis", "RCurl",
+                   "devtools", "ggplot2", "googleVis",
+                   "knitr",
+                   "repmis",,
                    "rmarkdown", "texreg",
                    "tidyr", "WDI",
-                   "xtable", "Zelig","tmaptools", "Rmisc","reshape2", "naniar","tmap"), repos = "http://cran.us.r-project.org")
+                   "xtable", "Zelig","tmaptools", "Rmisc", "naniar","tmap"), repos = "http://cran.us.r-project.org")
 
 packages = c("brew", "countrycode",
-             "devtools", "dplyr",
+             "devtools",
              "ggplot2", "googleVis",
-             "knitr", "MCMCpack",
-             "repmis", "RCurl",
+             "knitr",
+             "repmis", 
              "rmarkdown", "texreg",
              "tidyr", "WDI",
-             "xtable", "Zelig","tmaptools","Rmisc","reshape2","naniar","tmap")
+             "xtable", "Zelig","tmaptools","Rmisc""naniar","tmap")
 libdown = lapply(packages, library, character.only = TRUE)
