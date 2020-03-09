@@ -1,6 +1,3 @@
-
-#CD.data <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",
-#                  head=TRUE,sep=",")
 par(pty="s")
 
 # this deletes the rows with missing data
@@ -67,3 +64,4 @@ text(47.5, 0.275, expression(bold("Number of Children\nin bottom quintile famili
 # useful for colour coding
 #i <- factor(CD.data$)
 #c <- c("red", "blue")
+
