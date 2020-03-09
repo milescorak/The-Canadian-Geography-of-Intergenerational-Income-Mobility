@@ -3,8 +3,9 @@
 
 # this installs the library with the function corr
 # that is used for calculation of weighted correlations
-library("boot", lib.loc="/Library/Frameworks/R.framework/Versions/3.2/Resources/library")
-
+install.packages("boot")
+library(boot)
+library(xtable)
 
 #CD.data      <- read.csv(file="Analysis/Data/CD_mobility_All_cohorts_incomes_above_500.csv",head=TRUE,sep=",")
 # include province acronym with Census Division name to avoid ambiguities
