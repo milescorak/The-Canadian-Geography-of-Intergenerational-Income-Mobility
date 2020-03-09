@@ -1,4 +1,3 @@
-
 # map a two cluster 'us - them' country
 # the program Text-Figure-Dendrogram.R must have run to define n.cluster and y
 
