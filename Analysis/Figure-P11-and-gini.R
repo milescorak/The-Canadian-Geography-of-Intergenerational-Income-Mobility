@@ -5,7 +5,6 @@ par(pty="s")
 # reducing sample size by six
 
 CD.data.complete <- CD.data
-#CD.data.complete <- CD.data[complete.cases(CD.data), ]
 x <- with(CD.data.complete, 100*parent.gini)
 y <- with(CD.data.complete, p11)
 
