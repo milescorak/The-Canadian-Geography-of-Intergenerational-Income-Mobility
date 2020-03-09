@@ -4,18 +4,13 @@
 
 install.packages("naniar", repos = "http://cran.us.r-project.org")
 library(naniar)
+# map the seven cluster country
+# but retain all those in cluster 2 of the 2 cluster country in one cluster
+
 CD.data.map  <- merge(CD,CD.data)
 
-a <- rep("cluster",n.cluster)
-b <- seq(1:n.cluster)
-a <- paste(a,b,sep="")
-
-colnames(y) <- a
-y <- as.data.frame(y)
 CD.data.cluster      <- cbind(CD.data,y)
 CD.data.map.cluster  <- merge(CD,CD.data.cluster)
-
-## My code
 
 cluster.new = CD.data.cluster$cluster9
 cluster.2 = CD.data.cluster$cluster2
@@ -27,7 +22,7 @@ for (i in 1:length(position)) {
   cluster.new[position[i]] = 0  
 }
 
-cluster.new
+
 cluster.new[cluster.new == 9] = NA
 
 CD.data.cluster.new = cbind(CD.data.cluster,cluster.new)
